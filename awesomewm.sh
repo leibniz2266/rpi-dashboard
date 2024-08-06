@@ -7,7 +7,7 @@
 sudo pacman -Syu --noconfirm
 
 # Install the necessary packages
-sudo pacman -S --noconfirm git xorg-server lightdm awesome awesome-terminal-fonts lua lxtask htop picom dillo midori netsurf mousepad sc-im networkmanager pcmanfm feh lxappearance lxterminal neofetch rofi dmenu scrot
+sudo pacman -S --noconfirm git xorg-server lightdm awesome vicious awesome-terminal-fonts lua lxtask htop picom librewolf-bin mousepad networkmanager pcmanfm feh lxappearance lxterminal neofetch rofi dmenu scrot
 
 # Clone the lain library for Awesome WM
 git clone https://github.com/lcpz/lain.git ~/.config/awesome/lain
